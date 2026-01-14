@@ -19,7 +19,7 @@ def main():
     reflection.reflect()
 
     # Step 3: Update self-model example
-    update = input("\nDo you want to update Clyde's goal? (y/n): ")
+    update = input("\nDo you want to update Clyde's goal? (y/n): ") 
     if update.lower() == "y":
         new_goal = input("Enter new goal: ")
         self_model.model["goals"].append(new_goal)
